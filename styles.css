@@ -105,15 +105,9 @@ body {
 /* Animación del lirio flotante */
 .lily-flower {
     position: absolute;
-    display: flex;             /* 1. Habilita Flexbox */
-    justify-content: center;   /* 2. Centra horizontalmente */
-    align-items: center;       /* 3. Centra verticalmente */
+    width: 150px;
+    bottom: 50px;
     animation: float 5s ease-in-out infinite;
-}
-
-img {
-  max-width: 100%;           /* Asegura que la imagen no se desborde del contenedor */
-  height: auto;
 }
 
 @keyframes float {
@@ -205,6 +199,7 @@ img {
 .side-image.right {
     right: 30px; /* La distancia desde el borde derecho */
 }
+
 
 
 
