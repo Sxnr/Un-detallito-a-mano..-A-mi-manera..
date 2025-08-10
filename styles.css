@@ -104,17 +104,16 @@ body {
 
 /* Animación del lirio flotante */
 .lily-flower {
-    position: absolute;
-    width: 150px;
-    bottom: 50px;
-    left: 50%; /* Centra la imagen a la mitad del contenedor */
-    animation: float 5s ease-in-out infinite;
+    position: absolute;
+    width: 150px;
+    bottom: 50px;
+    animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
 }
 
 /* --- ESTILOS DE LA PÁGINA DE INTRODUCCIÓN DE MÚSICA --- */
@@ -200,6 +199,7 @@ body {
 .side-image.right {
     right: 30px; /* La distancia desde el borde derecho */
 }
+
 
 
 
