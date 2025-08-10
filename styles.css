@@ -105,8 +105,8 @@ body {
 /* Animación del lirio flotante */
 .lily-flower {
     position: absolute;
-    width: 150px;
-    bottom: 50px;
+    justify-content: center;   /* 2. Centra horizontalmente */
+    align-items: center;
     animation: float 5s ease-in-out infinite;
 }
 
@@ -199,3 +199,4 @@ body {
 .side-image.right {
     right: 30px; /* La distancia desde el borde derecho */
 }
+
